@@ -22,6 +22,10 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>3.0.0-M1</version>
+            </plugin>
         </plugins>
     </build>
     <properties>
@@ -79,15 +83,16 @@
         <repository>
             <id>central</id>
             <name>6cf858ec2a9c-releases</name>
-            <url>http://172.17.0.6:8081/artifactory/libs-release</url>
+            <url>http://localhost:8083/artifactory/libs-release</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>6cf858ec2a9c-snapshots</name>
-           <url>http://172.17.0.6:8081/artifactory/libs-snapshot</url>
+           <url>http://localhost:8083/artifactory/libs-snapshot</url>
 
 
         </snapshotRepository>
     </distributionManagement>
+
 </project>
 

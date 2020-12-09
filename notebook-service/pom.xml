@@ -9,7 +9,9 @@
 <!--        <version>0.0.1-RELEASE</version>-->
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
     <version>7.0-RELEASE</version>
+
     <build>
         <plugins>
             <plugin>
@@ -84,6 +86,8 @@
 <!--            <name>6cf858ec2a9c-snapshots</name>-->
 <!--           <url>http://localhost:8083/artifactory/libs-snapshot</url>-->
 
+
 <!--        </snapshotRepository>-->
 <!--    </distributionManagement>-->
 </project>
+

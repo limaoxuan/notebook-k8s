@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: notebook-service
+  zipkin:
+    base-url: http://zipkin-server:9411
+    sender:
+      type: web
+  sleuth:
+        sampler:
+          probability: 1
+server:
+  port: 1111
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${DISCOVERY_URL:http://eureka-server:8888}/eureka/
+
+ribbon:
+  eureka:
+    enabled: true
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <version>9.0-SNAPSHOT</version>
+    <version>10.0-SNAPSHOT</version>
 
     <build>
         <plugins>
@@ -83,12 +83,12 @@
         <repository>
             <id>central</id>
             <name>6cf858ec2a9c-releases</name>
-            <url>http://172.17.0.6:8081/artifactory/libs-release</url>
+            <url>http://172.17.0.2:8081/artifactory/libs-release</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>6cf858ec2a9c-snapshots</name>
-           <url>http://172.17.0.6:8081/artifactory/libs-snapshot</url>
+           <url>http://172.17.0.2:8081/artifactory/libs-snapshot</url>
 
 
         </snapshotRepository>

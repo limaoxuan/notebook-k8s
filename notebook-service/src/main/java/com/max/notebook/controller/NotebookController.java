@@ -40,7 +40,7 @@ public class NotebookController {
 		if (result.hasErrors()) {
 			return "add-notebook";
 		}
-//<!--test sornarqss-->
+//<!--test TEST-4-->
 		notebookRepository.save(notebook);
 		return "redirect:list";
 	}
